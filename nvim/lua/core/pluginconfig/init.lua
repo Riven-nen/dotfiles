@@ -1,0 +1,11 @@
+require("core.pluginconfig.lualine")
+require("core.pluginconfig.nvim-tree")
+require("core.pluginconfig.dashboard")
+require("core.pluginconfig.telescope")
+require("core.pluginconfig.treesitter")
+require("core.pluginconfig.lspconfig")
+require("core.pluginconfig.terminal")
+require("core.pluginconfig.gitsigns")
+require("core.pluginconfig.cmp")
+require("core.pluginconfig.autoclose")
+
