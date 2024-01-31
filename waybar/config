@@ -22,7 +22,6 @@
     "modules-left": [
         "custom/exit",
         "custom/youtube",
-        "custom/volumeslider",
     ],
 
     // Modules Center

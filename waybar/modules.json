@@ -148,13 +148,13 @@
     // Rofi test applet
     "custom/volumeslider" : {
         "format" : "test",
-        "on-click": "~/.config/rofi/powermenu/type-1/powermenu.sh",
+        "on-click": "~/.config/rofi/applets/bin/volume.sh",
     },
     
     // Power Menu
     "custom/exit": {
         "format": "",
-        "on-click": "shutdown now",
+        "on-click": "~/.config/rofi/powermenu/type-1/powermenu.sh",
         "tooltip": false
     },
 
