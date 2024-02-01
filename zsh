@@ -12,8 +12,8 @@ plugins=(git sudo history encode64 copypath zsh-autosuggestions zsh-syntax-highl
 
 
 # AUTO START THESE COMMANDS
-neofetch
 clear
+neofetch
 /$HOME/Code/C/welcome
 
 alias remindme="/$HOME/Code/C/welcome"
