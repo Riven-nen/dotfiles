@@ -1,4 +1,3 @@
-
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>') -- remove highlight search
 
 vim.keymap.set('n', '<leader>tt', ':PackerSync<CR>') -- sync packer plugins
