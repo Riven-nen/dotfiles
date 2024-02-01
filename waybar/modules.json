@@ -262,5 +262,12 @@
         "on-click" : "brightnessctl set 10%+", // brightness up
         "on-click-right" : "~/.config/waybar/scripts/brightness.sh", // down but with if statement 
     },
+
+    // Pulseaudio slider
+    "pulseaudio/slider" : {
+        "min" : 0,
+        "max" : 100,
+        "orientation" : "horizontal",
+    }
 }
 

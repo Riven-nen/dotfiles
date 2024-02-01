@@ -23,7 +23,7 @@
 @define-color textcolor2 #000000;
 @define-color textcolor3 #FFFFFF;
 @define-color iconcolor #FFFFFF;
-
+@define-color wifi #61ada7;
 /* -----------------------------------------------------
  * General 
  * ----------------------------------------------------- */
@@ -328,7 +328,7 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #network {
-    background-color: @backgrounddark;
+    background-color: #FFFFFF;
     font-size: 16px;
     color: @textcolor3;
     border-radius: 15px;
@@ -342,9 +342,11 @@ window#waybar.empty #window {
 }
 
 #network.wifi {
-    background-color: @backgrounddark;
+    background-color: @wifi;
     color: @textcolor3;
     padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* -----------------------------------------------------
@@ -430,11 +432,16 @@ label:focus {
     background-color: #90b1b1;
 }
 
-#network {
-    background-color: #2980b9;
-}
-
 #network.disconnected {
     background-color: #f53c3c;
+}
+
+#pulseaudio-slider slider {
+    min-height: 0.2px;
+    min-width: 0.2px;
+    opacity: 1;
+    border: none;
+    box-shadow: none;
+    background-color: white;
 }
 

@@ -35,7 +35,5 @@
         "pulseaudio",
         "battery", 
         "network",
-        "tray",
-        "custom/appmenu",
     ]
 }
