@@ -253,6 +253,14 @@
             "deactivated": ""
         },
         "on-click-right": "swaylock"        
-    }
+    },
+
+    // Brightness
+    "custom/brightness" : {
+        "format" : "+/-",
+        "tooltip" : false,
+        "on-click" : "brightnessctl set 10%+", // brightness up
+        "on-click-right" : "~/.config/waybar/scripts/brightness.sh", // down but with if statement 
+    },
 }
 
