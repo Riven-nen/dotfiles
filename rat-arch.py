@@ -6,6 +6,7 @@ su = "sudo"
 
 processes = [
             "sudo pacman -Sy",
+            "sudo cp ./hypr/hyprland.conf ~/.config/hypr/hyprland.conf"
             ]
 
 for process in processes:
